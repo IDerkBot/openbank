@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    padding: 25px 0;
+}
+header h3{
+    font-size: 36px;
+    font-weight: 800;
+}
+header p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.menu{
+    display: flex;
+    max-width: 1100px;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #00BBE4;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.credits{
+    display: flex;
+    flex-direction: column;
+}
+.credit{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 160%;
+    font-size: 14px;
+}
+.credit .title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card{
+    display: flex;
+    margin-bottom: 30px;
+}
+.card-img{
+    margin-right: 20px;
+}
+.card-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 200px;
+    text-align: center;
+    padding: 10px 50px;
+    background-color: #00BBE4;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.order{
+    padding: 10px 30px;
+}
+footer{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00BBE4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#btn-up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #00BBE4;
+    color: #fff;
+}
