@@ -59,6 +59,7 @@ header p{
     margin-bottom: 30px;
 }
 .card-img{
+    width: 300px;
     margin-right: 20px;
 }
 .card-title{
@@ -75,6 +76,25 @@ header p{
 }
 .order{
     padding: 10px 30px;
+}
+.mortgages{
+    margin: 20px auto;
+    max-width: 1100px;
+    width: 100%;
+}
+.mortgage .title{
+    font-size: 18px;
+    line-height: 140%;
+}
+.mortgage .desc{
+    font-size: 14px;
+    line-height: 140%;
+}
+.mortgage .rate{
+    font-size: 14px;
+}
+.mortgage .rate::before{
+    content: "Ставка: ";
 }
 form{
     max-width: 1100px;
@@ -109,4 +129,16 @@ footer{
     padding: 10px;
     background-color: #00BBE4;
     color: #fff;
+}
+@media screen and (max-width: 768px){
+    .card{
+        flex-direction: column;   
+        align-items: center;
+    }
+    .card-img{
+        margin: 0;
+    }
+    .card-title{
+        text-align: center;
+    }
 }
