@@ -1,0 +1,1 @@
+<? $conn = mysqli_connect("localhost", "root", "root", "openbank") or die(); ?>
