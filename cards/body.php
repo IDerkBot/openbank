@@ -7,7 +7,7 @@
                 <img src="<?=$card['image']?>" class="card-img">
                 <div class="card-info">
                     <div class="card-title"><?=$card['title']?></div>
-                    <a href="" class="btn link card">Оформить карту</a>
+                    <a href="order/index.php?id=<?=$card['id']?>" class="btn link card">Оформить карту</a>
                 </div>
             </div>
         <? } ?>

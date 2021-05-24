@@ -7,7 +7,7 @@
                 <div class="title"><?=$credit['title']?></div>
                 <div class="desc"><?=$credit['description']?></div>
                 <ul><?=$credit['options']?></ul>
-                <a href="" class="btn link order">Заполнить заявку</a>
+                <a href="credit/index.php" class="btn link order">Заполнить заявку</a>
             </div>
         <? } ?>
     </div>

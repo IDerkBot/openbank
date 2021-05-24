@@ -16,6 +16,11 @@ header p{
     letter-spacing: 2px;
     font-weight: 300;
 }
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
 .user{
     position: absolute;
     top: 0;
@@ -90,6 +95,11 @@ header p{
 .order{
     padding: 10px 30px;
 }
+.alert{
+    margin: 35px auto;
+    width: 1100px;
+    text-align: center;
+}
 .mortgages{
     margin: 20px auto;
     max-width: 1100px;
@@ -108,6 +118,31 @@ header p{
 }
 .mortgage .rate::before{
     content: "Ставка: ";
+}
+.form-credit{
+    display: flex;
+    flex-direction: column;
+}
+.form-credit .left{
+    display: flex;
+    flex-direction: column;
+}
+.form-credit .right{
+    display: flex;
+}
+.payment #price{
+    font-size: 24px;
+    text-align: center;
+}
+.form-credit label{
+    display: flex;
+}
+.form-credit label div{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=range]{
+    width: 500px;
 }
 form{
     max-width: 1100px;

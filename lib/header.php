@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=375, initial-scale=1.0">
     <meta name="viewport" content="width=320, initial-scale=1.0">
     <title>Банк «Открытие»</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/main.css">
 </head>
 <body>
@@ -15,6 +15,6 @@
         <h3>Банк «Открытие»</h3>
         <p>На шаг ближе к успеху</p>
         <div class="user">
-            <?(isset($_COOKIE['login'])) ? print('Здравстуйте, ' . $_COOKIE['login'] . '(<a href="auth/exit.php">Выйти</a>)') : print('Здравстуйте, Гость (<a href="auth/auth.php">Войти</a>)');?>
+            <?(isset($_COOKIE['login'])) ? print('Здравстуйте, ' . $_COOKIE['login'] . '(<a href="/auth/exit.php">Выйти</a>)') : print('Здравстуйте, Гость (<a href="/auth/index.php">Войти</a>)');?>
         </div>
     </header>

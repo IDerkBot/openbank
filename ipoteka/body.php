@@ -7,7 +7,7 @@
                 <div class="title"><?=$mortgage['title']?></div>
                 <div class="desc"><?=$mortgage['description']?></div>
                 <div class="rate"><?=$mortgage['rate']?></div>
-                <a href="" class="btn link">Оставить заявку</a>
+                <a href="order/index.php?id=<?=$mortgage['id']?>" class="btn link">Оставить заявку</a>
             </div>
         <? } ?>
     </div>
